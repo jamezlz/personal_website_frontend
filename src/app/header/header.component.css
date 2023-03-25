@@ -1,0 +1,29 @@
+header {
+  background-color: #08f;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 0 2px 5px #0000004d;
+
+}
+
+* {
+  color: white;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.socials {
+  justify-self: flex-end;
+}
+
+.socials a {
+ margin-left: .5rem;
+}
+
+nav {
+  justify-self: center;
+}

@@ -1,0 +1,12 @@
+h2 {
+    padding: 1rem 0;
+    font-size: 3rem;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(0, 0, 0);
+}
+
+hr {
+    border-top: 3px solid #bbb;
+    width: 90%
+}
