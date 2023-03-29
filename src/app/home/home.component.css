@@ -6,7 +6,39 @@ h2 {
     color:rgb(0, 0, 0);
 }
 
+h3 {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(0, 0, 0);
+}
+
 hr {
     border-top: 3px solid #bbb;
-    width: 90%
+    width: 1200px;
+    margin-bottom: 1rem;
+}
+
+.about-container {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 1200px;
+}
+
+.about-container div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.james-img img {
+    border-radius: 50%;
+}
+
+ul {
+    margin: 0;
 }
