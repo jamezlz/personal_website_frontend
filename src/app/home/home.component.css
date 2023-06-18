@@ -42,3 +42,38 @@ hr {
 ul {
     margin: 0;
 }
+
+@media only screen and (max-width: 1300px) {
+    hr {
+        display:none;
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+
+        width: auto;
+    }
+
+    .about-container div {
+        flex: 1;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .james-img {
+        order: -1;
+        align-self: center;
+    }
+
+    .james-img img {
+        max-height: 300px;
+        width: auto;
+    }
+
+    h3 {
+        text-align: start;
+    }
+}

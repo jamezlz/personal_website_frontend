@@ -1,5 +1,5 @@
 header {
-  background-color: #08f;
+  background-color: rgb(4, 104, 192);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
@@ -26,4 +26,18 @@ h1 {
 
 nav {
   justify-self: center;
+}
+
+.header-small {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .header-small {
+    display: block;
+  }
+
+  .header-large {
+    display: none;
+  }
 }
